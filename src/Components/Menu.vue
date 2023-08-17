@@ -11,14 +11,14 @@
 
       <router-link to="/talento/novo" class="item-menu">
         <li>
-          <img width="50" src="https://img.icons8.com/ios-filled/50/home.png" alt="home" />
+          <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/add-user-male.png" alt="home"/>
           <h2>Cadastro</h2>
         </li>
       </router-link>
 
       <router-link to="/sobre" class="item-menu">
         <li>
-          <img width="50" src="https://img.icons8.com/ios-filled/50/home.png" alt="home" />
+          <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/about.png" alt="home"/>
           <h2>Sobre</h2>
         </li>
       </router-link>
@@ -28,6 +28,7 @@
 </template>
 
 <style scoped>
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -37,7 +38,7 @@
 .item-menu {
   display: flex;
   border: 1px solid #000;
-  padding: 5px;
+  gap: 10px;
   width: 33%;
 }
 
@@ -45,7 +46,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  padding: 15px;  
   width: 33%;
 }
 </style>
